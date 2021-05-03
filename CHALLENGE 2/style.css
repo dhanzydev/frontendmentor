@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+/* TITLE */
+.title {
+    opacity: 0.8;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+
+/* DESCRIPTIOM */
+.description {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 0.5;
+    width: 191px;
+    height: 100px;
+}
+
+/* CONTAINER */
+.box-container {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    position: relative;
+    top: 250px;
+}
+
+.container {
+    padding-left: 45px;
+}
+
+/* BOX */
+.box-1 {
+    width: 300px;
+    height: 500px;
+    background-color: #E28525;
+}
+
+.box-2 {
+    width: 300px;
+    height: 500px;
+    background-color: #016972;
+}
+
+.box-3 {
+    width: 300px;
+    height: 500px;
+    background-color: #00403F;
+}
+
+/* LOGO */
+img {
+    padding-top: 40px;
+}
+
+/* BUTTON */
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 65px;
+}
+
+.btn-box-1 {
+    color: #E28525;
+}
+
+.btn-box-2 {
+    color: #016972;
+}
+
+.btn-box-3 {
+    color: #00403F;
+}
+
+@media (max-width: 600px) {
+    .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1 {
+        height: 400px;
+    }
+    .box-2 {
+        height: 400px;
+    }
+    .box-3 {
+        height: 400px;
+    }
+    
+    button {
+        margin-top: 30px;
+    }
+}
